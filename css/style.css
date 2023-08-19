@@ -1,0 +1,301 @@
+#loading{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  z-index: 999999;
+  background-color: #fb3e51;
+}
+
+.sk-cube-grid {
+  width: 80px;
+  height: 80px;
+  margin: 350px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: white;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+
+/* #################### End of spinner ######################  */
+
+:root {
+  scroll-behavior: auto;
+}
+body{
+  overflow: hidden;
+}
+.side-bar-container {
+  width: 15%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 9;
+}
+.sideBarContent {
+  background-color: black;
+  width: 100%;
+}
+.openSideBar {
+  position: absolute;
+  top: 45%;
+  width: 10%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.closeIcon {
+  color: white;
+  font-size: 25px;
+  right: 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.closeIcon:hover {
+  color: #dc3545;
+  transition: all 0.4s;
+}
+.list {
+  list-style: none;
+}
+ul {
+  position: absolute;
+  top: 10%;
+}
+li {
+  color: white;
+  margin: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+a {
+  font-size: 25px;
+  color: white;
+  transition: all 0.4s;
+}
+li a:hover {
+  color: #dc3545;
+  transition: all 0.4s;
+}
+
+/*######################## end of Side Bar ################## */
+header {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/events-heavenly-header.jpg);
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.info {
+  top: 38%;
+  left: 37%;
+}
+h1 {
+  font-size: 60px;
+}
+
+/* ####################### End of Section Header ######################## */
+#Duration {
+  margin-top: 6%;
+}
+
+.singer {
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+}
+.paragraf {
+  background-color: #cccccc;
+}
+
+/* ####################### End of Section duration ########################  */
+
+#Details {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+  margin-top: 7%;
+}
+#Details .container {
+  width: 75%;
+}
+.time {
+  color: white;
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#Details .container {
+  padding: 100px 0px;
+}
+
+/* ####################### End of Section details ########################  */
+
+#Contact {
+  margin-top: 13%;
+}
+.head {
+  margin-left: 5%;
+}
+.head h3 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+head h5 {
+  line-height: 1.2;
+}
+.head p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+strong {
+  font-weight: bolder;
+  margin-left: 10%;
+}
+.col-md-6 p {
+  margin-left: 8%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+.icons1 p {
+  line-height: 43px;
+}
+.socialList {
+  margin-left: 12%;
+  margin-top: 60px;
+  color: #777;
+}
+.socialList i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.socialList i:hover {
+  background-color: rgb(214, 46, 51);
+  color: white;
+}
+.form-control {
+  width: 90%;
+}
+.btn {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+.btn:hover {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+/* ####################### End of Section contacts ########################  */
+
+footer{
+  background-color: #333333;
+}
+.container9{
+  width: 80%;
+  height: 23vh;
+  margin: auto;
+}
+.iconss{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+.iconss i{
+  padding-left: 15px;
+  transition: 0.3s;
+}
+.iconss i:hover{
+  color: #FF305B;
+  transition: 0.3s;
+}
+.container9 p{
+  text-align: center;
+  color: white;
+}
+.container9 p span{
+  color: #FF305B;
+}
+
+/* ####################### End of Section footer ########################  */
